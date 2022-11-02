@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;700;800&family=Poppins:wght@300;700&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.card{
+    width: 98%;
+    height: 95vh;
+    margin: 15px;
+    border-radius: 15px;
+    background-color: #963eff;
+}
+
+.quote{
+    color: white;
+    padding: 150px 120px;
+}
+.heading{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Nunito sans',sans-serif;
+}
+.subheading{
+    text-align: justify;
+    font-size :20px;
+    margin: 40px 160px;
+    font-weight: 300;
+    font-family: 'Roboto',sans-serif;
+}
