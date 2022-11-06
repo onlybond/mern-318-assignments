@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-weight: 200;
+}
+.card{
+    width: 400px;
+    height: 500px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 30px;
+}
+.material-symbols-outlined {
+    vertical-align: text-top;
+}
+
+.material-icons{
+    vertical-align: text-bottom;
+}
+.price{
+    display: inline-block;
+    margin: 10px auto;
+    font-size: 20px;
+    padding-right:50px;
+}
+label{
+    display: inline-block;
+}
+.date-and-count{
+    border: 1px solid lightgray;
+    border-radius: 8px;
+}
+button{
+    background-color: rgb(228,29,86);
+    padding: 10px 140px;
+    border: none;
+    margin: 20px 0;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+}
+.checkin , .checkout{
+    display: inline-block;
+    padding: 5px 25px 5px 15px;
+}
+.checkin{
+    border-right: 2px solid lightgray;
+}
+.dropdown{
+    width: 337px;
+    border-top: 2px solid lightgray;
+}
+.drop{
+    display: inline-block;
+    margin: 10px 225px 10px 20px;
+}
