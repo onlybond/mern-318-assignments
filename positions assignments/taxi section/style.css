@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.container{
+    background-image:
+    url('https://media.istockphoto.com/id/1354259292/photo/male-driver-of-a-carpool-service.jpg?s=612x612&w=0&k=20&c=_aQe_dPVvhUgSAQ9IBluYXmBicF1YnrGEhv1uiov-LQ=');
+    height: 98vh;
+    width: 95vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px 30px;
+    border-radius:20px ;
+    -webkit-border-radius:20px ;
+    -moz-border-radius:20px ;
+    -ms-border-radius:20px ;
+    -o-border-radius:20px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+}
+
+.mini{
+    font-size :20px;
+    font-weight: 600;
+}
+
+.header{
+    font-size: 70px;
+    margin: 10px 0;
+    font-weight: 600;
+    line-height: 90px;
+}
+
+.section{
+    font-size: 18px;
+    margin : 30px 0 ;
+}
+
+.btn{
+    width: 170px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border-radius: 30px;
+    padding:15px 38px;
+}

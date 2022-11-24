@@ -17,16 +17,18 @@
     -o-border-radius: 20px;
 }
 .material-symbols-outlined {
-    vertical-align: text-top;
+    vertical-align: text-bottom;
 }
 
 .material-icons{
-    vertical-align: text-bottom;
+    vertical-align: text-top;
+    font-size: 10px;
+    margin: 0 10px;
 }
 .price{
     display: inline-block;
     margin: 10px auto;
-    font-size: 20px;
+    font-size: 24px;
     padding-right:50px;
 }
 label{

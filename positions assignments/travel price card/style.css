@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    position: relative;
+    height: 420px;
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin: 100px auto;
+}
+img{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    margin:20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.adv{
+    position: inherit;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    z-index: 2;
+    top:10%;
+    left: 15%;
+    padding: 2.5px 5px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.ratings{
+    position: inherit;
+    display: inline-block;
+    background-color: white;
+    z-index: 2;
+    top:10%;
+    right: -35%;
+    padding: 2.5px 10px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.dur{
+    position: inherit;
+    display: inline-block;
+    background-color: white;
+    z-index: 2;
+    top:62%;
+    left: -35%;
+    padding: 2.5px 8px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+p{
+    margin-top: 300px;
+    font-size: 25px;
+    padding: 0 20px;
+
+}
+.price{
+    display: inline-block;
+    font-size: 23px;
+    font-weight: 800;
+    color:rgb(18, 175, 107) ;
+    padding: 0 10px 0px 20px;
+}
+
+span{
+    font-weight:100px ;
+    color: gray;
+}
