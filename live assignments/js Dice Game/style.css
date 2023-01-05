@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 3em;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.container{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+button{
+    background-color: black;
+    padding: 20px 40px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+button:hover{
+    transform: translateY(5px);
+    transition: 0.5s;
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.rotate{
+    animation: rotate linear 5s;
+    -webkit-animation: rotate linear 5s;
+}
+
+@keyframes rotate {
+    50%{
+        transform: rotate(2160deg);
+        -webkit-transform: rotate(2160deg);
+        -moz-transform: rotate(2160deg);
+        -ms-transform: rotate(2160deg);
+        -o-transform: rotate(2160deg);
+}
+    100%{
+        transform: rotate(4320deg);
+        -webkit-transform: rotate(4320deg);
+        -moz-transform: rotate(4320deg);
+        -ms-transform: rotate(4320deg);
+        -o-transform: rotate(4320deg);
+}
+}
+
+.face{
+    font-size: 50px;
+    /* text-align: center; */
+    margin: 10px 35px;
+    font-weight: 700;
+    color: white;
+}
